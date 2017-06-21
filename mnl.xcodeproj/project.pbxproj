@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		00B310941EFAA87C00B77D57 /* mnl.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B310921EFAA87C00B77D57 /* mnl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		00B3109B1EFAA88C00B77D57 /* mnl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B3109A1EFAA88C00B77D57 /* mnl.swift */; };
+		00B310A31EFAB0F500B77D57 /* mnl.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 00B310A21EFAB0F500B77D57 /* mnl.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		00B310921EFAA87C00B77D57 /* mnl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mnl.h; sourceTree = "<group>"; };
 		00B310931EFAA87C00B77D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00B3109A1EFAA88C00B77D57 /* mnl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mnl.swift; sourceTree = "<group>"; };
+		00B310A21EFAB0F500B77D57 /* mnl.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mnl.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 		00B310851EFAA87C00B77D57 = {
 			isa = PBXGroup;
 			children = (
+				00B310A21EFAB0F500B77D57 /* mnl.podspec */,
 				00B310911EFAA87C00B77D57 /* mnl */,
 				00B310901EFAA87C00B77D57 /* Products */,
 			);
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B310A31EFAB0F500B77D57 /* mnl.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
